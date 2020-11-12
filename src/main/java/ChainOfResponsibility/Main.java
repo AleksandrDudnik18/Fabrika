@@ -10,7 +10,7 @@ public class Main {
 
 //        h1.handle("alex", "admin");
 //        h1.handle("alex", "admin");
-        h1.handle("admin1", "admin");
+        h1.handle("admin", "admin");
 
     }
 }

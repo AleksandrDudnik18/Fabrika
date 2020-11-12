@@ -7,7 +7,8 @@ public class AuthorizationHandler extends BaseHandler {
 
     protected boolean canHandler(String login, String pass) {
 
-        return null == login || pass == null || login.equals("") || pass.equals("");
+//        return null == login || pass == null || login.equals("") || pass.equals("");
+            return login.isEmpty() && pass.isEmpty();
 
     }
 
