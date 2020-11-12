@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Publisher {
 
-    private List<Subscriber> subscribers;
+    private final List<Subscriber> subscribers;
     private String magazine;
 
     public Publisher() {
