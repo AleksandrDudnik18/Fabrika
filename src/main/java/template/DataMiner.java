@@ -3,7 +3,7 @@ package template;
 abstract public class DataMiner {
 
 
-    public void main(String path) {
+    public void mine(String path) {
 
         String file = openFile(path);
         String rawData = extractData(file);
