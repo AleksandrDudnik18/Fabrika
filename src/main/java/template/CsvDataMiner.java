@@ -18,7 +18,7 @@ public class CsvDataMiner extends DataMiner{
 
     @Override
     protected String openFile(String path) {
-        System.out.println("file CSV open");
+        System.out.println("file CSV open " + path);
         return path;
     }
 
